@@ -1,7 +1,3 @@
-Berikut contoh file `README.md` untuk GitHub repository berisi website statis APBA (misalnya singkatan dari nama instansi atau organisasi tertentu), yang dibuat menggunakan **Bootstrap 5**, **HTML5**, dan **CSS3**:
-
----
-
 ```markdown
 # Website APBA
 
