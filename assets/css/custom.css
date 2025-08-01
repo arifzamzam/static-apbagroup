@@ -1,0 +1,26 @@
+.section-with-overlay {
+  position: relative;
+  background-image: url('../img/hampton.jpg'); /* Ganti dengan URL gambar kamu */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* warna teks agar tetap terbaca */
+  padding: 60px 20px; /* sesuaikan sesuai kebutuhan */
+}
+
+.section-with-overlay::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* shorthand untuk top, right, bottom, left = 0 */
+  background-color: rgba(0, 0, 0, 0.8); /* hitam dengan opacity 50% */
+}
+
+.section-with-overlay > * {
+  position: relative; /* agar isi tetap di atas overlay */
+  z-index: 1;
+}
+
+.image-background {
+    background-image: url(../img/testimonial_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
